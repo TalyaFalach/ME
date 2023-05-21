@@ -2,34 +2,68 @@
 <head>
 <title>My Site</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <style>
+ .my-img{
+ height:400px;
+ border-radius:40px;
+ }
+ .my-p{
+  
+  text-align: justify;
+  line-height:2.5rem;
+  padding: 10px; 
+ }
+ </style>
 <body>
-<div class=" bg-dark h-100 w-100 text-light mt-2">
-<h1 class='display-3 text-center'> !ברוכים הבאים</h1>
-<div class="mx-auto text-center mt-3 m-2 p-5">
-	<img class="mx-auto shadow" style="height:200px; width:200px; border-radius:100%" src="https://scontent.ftlv15-1.fna.fbcdn.net/v/t39.30808-6/242591133_2953601354954902_5053125092956672030_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=-vJS4SXlUi8AX-w6kXw&_nc_ht=scontent.ftlv15-1.fna&oh=00_AfC-WDuzoCt4jCXXv47KrfTwKxHwobGwPGYEmb_vVdP5WQ&oe=6468364C"/>
+<div class='bg-dark h-100'>
 
-	<p class='lead text-light w-75 mx-auto mt-3 rtl'> 
-		<br/>
-		.שמי טליה פלח, בת 26 מנתניה <br/>
-		.למדתי 3 שנים מוזיקה, מנגנת על גיטרה ותופים, ובשנה האחרונה התאהבתי בעולם המחשבים <br/>
-		מתעניינת מאוד בעולם בדיקות התוכנה והאוטומציה ומחכה לדעת יותר ולעסוק בכך		
-	</p>
+	<div class='container mx-auto text-center text-light'>
+		<div class='row mt-4'>
+			<div class='col-sm text-center'>
+			<h2 class='display-4'>Hello!</h2>
+			<p class='lead my-p '> <mark class='fw-bold'>My name is Talya Falach</mark> , I'm 26 years old
+			from Netanya. In the past I studied music, playing the electric guitar and drums and connected to the world of music.  I fell in love with the world of computers a year and a half ago,
+			I studied development and recently studied QA. Excited and looking forward to learning new things.
+			<br/>
+			</p>
+			</div>
+			<div class='col-sm'>
+			<img class='my-img shadow-lg .shadow-inner light' src='https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.6435-9/80436847_2418227685158941_4453789573083824128_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=u14YpJXoRfMAX81wU2j&_nc_ht=scontent.ftlv15-1.fna&oh=00_AfDq7QRWcspDGc9TTZlP0TXadX-Dz0zZ_2JsU35sonhfLg&oe=6491363A' />
+			</div>
+		</div>
+		<hr/>
+	</div>
+	
+	<div class='container mt-4 text-center mx-auto  '>
+	<div class='row text-center mx-auto'>
+	<div class='col-sm text-center mx-auto'>
+		<div class="card" style="width: 18rem; height:20rem;">
+		<img class="card-img-top" src="https://media.istockphoto.com/id/1168945108/photo/close-up-image-of-male-hands-using-smartphone-with-icon-telephone-email-mobile-phone-and.jpg?s=612x612&w=0&k=20&c=aVojLzP1n3XNxuRdy7Pqdzo6OyRAVanOWDUWjbu3R8Q=" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title mb-5">Contact me on social media</h5>
+			
+			<a href="./contact.html" class="btn btn-light">Click Here</a>
+  </div>
 </div>
-<div class='row text-center w-50 mx-auto'>
-	<div class='col-sm'>
-		<a href='./contact.html'>
-			<button class='btn btn-light'>Contact</button>
-		</a>
 	</div>
 	<div class='col-sm'>
-		<a href='./gallery.html'>
-			<button class='btn btn-light'>Gallery</button>
-		</a>
+	<div class="card" style="width: 18rem; height:20rem;">
+	<img class="card-img-top" src="https://i0.wp.com/fraenkelgallery.com/wp-content/uploads/2019/11/Hiroshi-Sugimoto-Opticks-Installation-View-UPDATED.jpg?resize=1380%2C776&quality=90&strip=all&ssl=1" alt="Card image cap">
+	<div class="card-body">
+    <h5 class="card-title mb-5">Watch My Gallery</h5>
+    <a href="./gallery.html" class="btn btn-light">Click Here</a>
+  </div>
+  
+  
+</div>
 	</div>
-</div>
+	</div>
+	</div>
+
+
 
 </div>
-
+</body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </head>
